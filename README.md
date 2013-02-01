@@ -20,5 +20,5 @@ To obliterate an existing vim config and replace with Scott's:
     rm -rf .vimrc .vim && \
     git clone git@github.com:scott-r-lindsey/scott-vim.git .vim && \
     ln -s .vim/vimrc .vimrc && \
-    cd .vim && git submodule update && cd
+    cd .vim && git submodule init && cd
 
