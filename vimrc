@@ -30,3 +30,7 @@ if has ('folding')
     set fdm=syntax 
     set foldlevelstart=20
 endif
+
+" fold color for dark screens
+:hi Folded ctermbg=234
+:hi Folded ctermfg=None
