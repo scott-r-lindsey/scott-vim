@@ -14,7 +14,7 @@ set expandtab
 
 " twig template coloring
 :au BufRead,BufNewFile *.twig set filetype=twig
-:au! Syntax twig source /home/slindsey/.vim/twig.vim
+:au! Syntax twig source ~/.vim/twig.vim
 
 " enable The NERD Tree
 map <F2> :NERDTreeToggle<CR>
