@@ -34,3 +34,6 @@ endif
 " fold color for dark screens
 :hi Folded ctermbg=234
 :hi Folded ctermfg=None
+
+:command W w
+:command Q q
