@@ -37,3 +37,6 @@ endif
 
 :command W w
 :command Q q
+
+let g:NERDTreeWinSize = 40 
+
