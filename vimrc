@@ -40,3 +40,5 @@ endif
 
 let g:NERDTreeWinSize = 40 
 
+" no startup message
+set shortmess+=I
