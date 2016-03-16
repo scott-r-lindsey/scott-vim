@@ -25,6 +25,9 @@ autocmd BufNewFile,BufRead *.css set fdm=marker fmr={,}
 " enable PHP folding
 let php_folding=1 
 
+" two spaces for js, because modern
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+
 " start files in 'unfolded' mode
 if has ('folding')
     set fdm=syntax 
