@@ -3,7 +3,6 @@ This is Scott's VIM configuration
 
 ### Included:
  * [Pathogen](https://github.com/tpope/vim-pathogen)
- * [Sensible](https://github.com/tpope/vim-sensible)
  * [The NERD Tree](https://github.com/scrooloose/nerdtree)
  * [Alex Suraci's Twig Syntax](http://darcsden.com/daniel/dotfiles/browse/.vim/syntax/twig.vim)
  * [Yi Zhao's Javascript Syntax](http://www.vim.org/scripts/script.php?script_id=1491)
