@@ -45,3 +45,6 @@ let g:NERDTreeWinSize = 40
 
 " no startup message
 set shortmess+=I
+
+" Json formatting
+map <F3> :%!python -m json.tool<CR>
