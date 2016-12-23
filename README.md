@@ -6,6 +6,8 @@ This is Scott's VIM configuration
  * [The NERD Tree](https://github.com/scrooloose/nerdtree)
  * [Alex Suraci's Twig Syntax](http://darcsden.com/daniel/dotfiles/browse/.vim/syntax/twig.vim)
  * [Yi Zhao's Javascript Syntax](http://www.vim.org/scripts/script.php?script_id=1491)
+ * [Vim-Airline](https://github.com/vim-airline/vim-airline)
+ * [Vim-Terraform](https://github.com/hashivim/vim-terraform)
 
 ### In addition, tips from around the web have been included:
  * [Folding](http://vim.wikia.com/wiki/Folding)
@@ -13,6 +15,7 @@ This is Scott's VIM configuration
  * [All folds open by default](http://vim.wikia.com/wiki/All_folds_open_when_opening_a_file)
  * [Clobber .swp files](http://vim.1045645.n5.nabble.com/How-to-disable-the-warning-when-swp-file-exists-td1168367.html)
  * [Feature detection in .vimrc](http://stackoverflow.com/questions/11035933/ignore-unknown-option-errors-in-vimrc)
+ * [Press f3 to format json](http://lornajane.net/posts/2013/pretty-printing-json-with-pythons-json-tool)
 
 
 To obliterate an existing vim config and replace with Scott's:
