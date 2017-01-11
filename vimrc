@@ -58,4 +58,4 @@ let g:airline_theme = 'behelit'
 set laststatus=2
 let &t_Co=256
 
-
+syntax on
