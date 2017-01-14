@@ -5,6 +5,7 @@ call pathogen#infect()
 set tabstop=4
 set shiftwidth=4
 set expandtab
++autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 " disable swap file warnings
 :augroup SwapClobber
@@ -37,6 +38,8 @@ endif
 " fold color for dark screens
 :hi Folded ctermbg=234
 :hi Folded ctermfg=None
+
+
 
 :command W w
 :command Q q
