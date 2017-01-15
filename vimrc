@@ -39,8 +39,6 @@ endif
 :hi Folded ctermbg=234
 :hi Folded ctermfg=None
 
-
-
 :command W w
 :command Q q
 :command Wq wq
@@ -61,4 +59,8 @@ let g:airline_theme = 'behelit'
 set laststatus=2
 let &t_Co=256
 
+" because mac os
 syntax on
+
+" typescript template syntax coloring
+autocmd FileType typescript JsPreTmpl markdown
