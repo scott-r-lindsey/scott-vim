@@ -5,7 +5,8 @@ call pathogen#infect()
 set tabstop=4
 set shiftwidth=4
 set expandtab
-" +autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
 
 " disable swap file warnings
 :augroup SwapClobber
@@ -64,3 +65,5 @@ syntax on
 
 " typescript template syntax coloring
 autocmd FileType typescript JsPreTmpl markdown
+
+set noswapfile
