@@ -16,3 +16,6 @@
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "bundle/vim-autoformat"]
+	path = bundle/vim-autoformat
+	url = git@github.com:Chiel92/vim-autoformat.git
