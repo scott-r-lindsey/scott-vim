@@ -67,3 +67,8 @@ syntax on
 autocmd FileType typescript JsPreTmpl markdown
 
 set noswapfile
+
+" Show trailing whitespace; http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+:highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+:match ExtraWhitespace /\s\+$/
+
