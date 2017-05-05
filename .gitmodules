@@ -19,3 +19,9 @@
 [submodule "bundle/vim-autoformat"]
 	path = bundle/vim-autoformat
 	url = git@github.com:Chiel92/vim-autoformat.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vim-js-pretty-template"]
+	path = bundle/vim-js-pretty-template
+	url = https://github.com/Quramy/vim-js-pretty-template
