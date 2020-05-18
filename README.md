@@ -1,6 +1,8 @@
 This is Scott's VIM configuration 
 =================================
 
+*This has been superseded by [scott-vim8](https://github.com/scott-r-lindsey/scott-vim8)*!
+
 ### Included:
  * [Pathogen](https://github.com/tpope/vim-pathogen)
  * [The NERD Tree](https://github.com/scrooloose/nerdtree)
